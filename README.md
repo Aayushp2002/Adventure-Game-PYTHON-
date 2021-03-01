@@ -2,13 +2,13 @@
 # Adventure game where the user's goal is to survive until the mission ends.
 
 
-print("Welcome to my game! Have fun!")
-yourName=input("Hello, what is your name? ").lower()
-yourAge=int(input("What is your age? "))
-print("Hello ",yourName," you are ",yourAge," years old")
-healthOfTheUser=100
+    print("Welcome to my game! Have fun!")
+    yourName=input("Hello, what is your name? ").lower()
+    yourAge=int(input("What is your age? "))
+    print("Hello ",yourName," you are ",yourAge," years old")
+    healthOfTheUser=100
 
-if yourAge >= 18:
+    if yourAge >= 18:
     print("Your age is valid to play this game")
     wantToPlay=input("Do you want to play this game? ").lower()
     if wantToPlay=="yes":
@@ -64,4 +64,6 @@ if yourAge >= 18:
 
 else:
     print("Your age is not valid to play this game")
+
+
 
